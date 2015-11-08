@@ -165,7 +165,10 @@ public class LinkedList<T> implements Iterable<T> {
 			throw new NoSuchElementException();
 		} else {
 			T element = head.data;
+			
+			Node<T> tmp=head;
 			head = head.next;
+			tmp=null;
 			return element;
 		}
 	}
@@ -325,3 +328,5 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 }
+
+
