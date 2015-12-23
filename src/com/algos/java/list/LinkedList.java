@@ -1,4 +1,4 @@
-package com.chandra.java.util;
+package com.algos.java.list;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
