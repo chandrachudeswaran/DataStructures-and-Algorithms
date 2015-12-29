@@ -73,6 +73,7 @@ public class BalancingParenthesis {
 		} else {
 			System.out.println("String is not balanced");
 		}
+		s.close();
 	}
 
 }

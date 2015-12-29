@@ -60,6 +60,7 @@ public class Stack<T> {
 		return sb.toString();
 
 	}
+	
 
 	private static class Node<T> {
 		private T data;
